@@ -10,7 +10,7 @@ body
     display: flex;
     justify-content: space-evenly;
     position: absolute;
-    background-color:#57b8b8;
+    background-color:#16a085;/*#57b8b8;*/
     align-items: center;
     
    
@@ -20,7 +20,8 @@ body
     height: 45px;
     display: flex;
     padding-left: 150px;
-    align-content: center;
+	align-content: center;
+	color: #FDF5E6;;
 }
 @media screen and (max-width: 992px) {
     .nav-bar {
@@ -31,7 +32,7 @@ body
     width: 10%;
     height: 45px;
     display: flex;
-    background-color:rgb(116, 136, 187);
+    background-color:#FDF5E6;
     border-radius: 50%;
     align-items: center;
    margin-left: 10px;
