@@ -4,6 +4,10 @@ import Post from './Post'
 import Slogan from './Slogan'
 
 function Home() {
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    console.log("scrolled: ",document.documentElement.scrollTop);}
     return (
         <div className="home">
             <Slogan/>
@@ -77,6 +81,29 @@ function Home() {
             auther="by: xiirey xaashi" commments="Comments: 5" date="1/5/2020" />
             </div>
             </div>
+
+            <div className= "home-sidebar">
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+
+                <p>This is home sidebar</p><p>This is home sidebar</p>
+
+                <p>This is home sidebar, you welcome</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+                <p>This is home sidebar</p>
+
+            </div>
            
            
         </div>
@@ -84,3 +111,4 @@ function Home() {
 }
 
 export default Home
+
